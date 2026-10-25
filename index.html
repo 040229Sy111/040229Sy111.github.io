@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#282828">
+<title>苏沐秋 · 视觉表现工作室｜室内效果图与空间表现</title>
+<meta name="description" content="苏沐秋视觉表现工作室，专注室内效果图、720°全景与空间动画。提供住宅与商业空间效果图、材质灯光表现、全景漫游与动画制作，支持远程协作。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">跳到主内容</a>
+<div class="scroll-progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a class="brand" href="#home" data-tab-link="home" aria-label="苏沐秋视觉表现工作室，回到首页">
+      <span class="brand-top">
+        <span class="brand-name">苏沐秋</span>
+        <span class="brand-bars" aria-hidden="true"><i></i><i></i><i></i></span>
+      </span>
+      <span class="brand-sub">视觉表现工作室 <em>INTERIOR VISUALIZATION</em></span>
+    </a>
+
+    <nav class="nav" role="tablist" aria-label="站点栏目">
+      <button class="nav-link is-active" id="tab-home" role="tab" aria-selected="true" aria-controls="home" data-tab="home">首页</button>
+      <button class="nav-link" id="tab-about" role="tab" aria-selected="false" aria-controls="about" tabindex="-1" data-tab="about">关于我</button>
+      <button class="nav-link" id="tab-work" role="tab" aria-selected="false" aria-controls="work" tabindex="-1" data-tab="work">案例展示</button>
+      <button class="nav-link" id="tab-price" role="tab" aria-selected="false" aria-controls="price" tabindex="-1" data-tab="price">接单价格明细</button>
+    </nav>
+
+    <a class="header-cta" href="mailto:syong2475@gmail.com" aria-label="发邮件给苏沐秋" title="聊聊项目">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+        <circle cx="12" cy="8.4" r="3.4"/>
+        <path d="M4.8 20c.7-3.4 3.6-5.4 7.2-5.4s6.5 2 7.2 5.4"/>
+      </svg>
+    </a>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ==================== 首页 ==================== -->
+  <section class="panel is-active" id="home" role="tabpanel" aria-labelledby="tab-home">
+    <div class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow reveal"><span class="dot"></span> SU MUQIU · INTERIOR VISUALIZATION</p>
+
+        <h1 class="hero-title reveal" style="--d:.08s">你好<span class="hero-title-dot" aria-hidden="true"></span></h1>
+
+        <div class="hero-lede reveal" style="--d:.16s">
+          <p>我是苏沐秋，室内效果图设计师。</p>
+          <p>专注住宅与商业空间的效果图、全景与动画，</p>
+          <p>把还没建成的空间，先做出来给你看。</p>
+        </div>
+
+        <div class="hero-actions reveal" style="--d:.24s">
+          <a class="btn btn-solid" href="#work" data-tab-link="work">看看案例 <span aria-hidden="true">↗</span></a>
+          <a class="btn btn-ghost" href="#price" data-tab-link="price">获取报价</a>
+        </div>
+
+        <ul class="hero-stats reveal" style="--d:.32s">
+          <li><strong>2</strong><span>年空间表现</span></li>
+          <li><strong>320<em>+</em></strong><span>张效果图</span></li>
+          <li><strong>12</strong><span>合作设计机构</span></li>
+          <li><strong>48<em>h</em></strong><span>首轮响应</span></li>
+        </ul>
+      </div>
+
+      <div class="hero-visual">
+        <img src="assets/hero.jpg"
+             alt="深色极简餐厨的空间表现主视觉" fetchpriority="high">
+        <span class="hero-available"><i aria-hidden="true"></i>2026 档期开放中</span>
+        <a class="hero-orbit" href="#work" data-tab-link="work" aria-label="查看案例">
+          <span>看<br>案例</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+            <path d="M7 17 17 7M9 7h8v8"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>住宅空间 <i></i> 商业空间 <i></i> 全景漫游 <i></i> 空间动画 <i></i> 材质灯光 <i></i> 软装搭配 <i></i></span>
+        <span>住宅空间 <i></i> 商业空间 <i></i> 全景漫游 <i></i> 空间动画 <i></i> 材质灯光 <i></i> 软装搭配 <i></i></span>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="section-head">
+        <p class="eyebrow reveal"><span class="dot"></span> WHAT I DO</p>
+        <div class="head-row">
+          <h2 class="display reveal" style="--d:.08s">用光与材质，<em>说清</em>一个空间</h2>
+          <p class="section-note reveal" style="--d:.16s">从一张户型图，到业主能看懂的画面。<br>不做炫技的镜头，只做站得住的空间。</p>
+        </div>
+      </div>
+
+      <div class="pillars reveal" style="--d:.1s">
+        <article class="pillar">
+          <span class="pillar-num">01</span>
+          <h3>住宅空间</h3>
+          <p>客餐厅、卧室、厨卫与全屋。先对齐尺度与动线，再把材质和光做进去，让业主看懂未来的家。</p>
+          <ul><li>客餐厅</li><li>卧室 / 主卧</li><li>全屋套图</li></ul>
+        </article>
+        <article class="pillar">
+          <span class="pillar-num">02</span>
+          <h3>商业空间</h3>
+          <p>餐饮、零售、民宿与办公。在开业之前，先看到空间真正营业时的样子与人流动线。</p>
+          <ul><li>餐饮门店</li><li>零售 / 展厅</li><li>民宿 / 办公</li></ul>
+        </article>
+        <article class="pillar">
+          <span class="pillar-num">03</span>
+          <h3>全景与动画</h3>
+          <p>720° 全景漫游与 15–30 秒空间动画，适合方案汇报、招商展示与线上传播。</p>
+          <ul><li>720° 全景</li><li>空间动画</li><li>汇报视频</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <p class="eyebrow reveal"><span class="dot"></span> SELECTED WORKS</p>
+        <div class="head-row">
+          <h2 class="display reveal" style="--d:.08s">近期案例</h2>
+          <a class="text-link reveal" style="--d:.16s" href="#work" data-tab-link="work">全部案例 <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+
+      <div class="featured reveal" style="--d:.1s">
+        <a class="feature" href="#work" data-tab-link="work">
+          <img src="assets/work-01.jpg"
+               alt="多巴胺住宅客厅室内效果图">
+          <span class="feature-tag">住宅空间 · 客厅 / 2026</span>
+          <span class="feature-name">多巴胺 · 客厅</span>
+        </a>
+        <a class="feature" href="#work" data-tab-link="work">
+          <img src="assets/work-03.jpg"
+               alt="韩系海盐客厅室内效果图">
+          <span class="feature-tag">住宅空间 · 客厅 / 2026</span>
+          <span class="feature-name">韩系海盐 · 客厅</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="cta-band-inner">
+        <p class="eyebrow"><span class="dot"></span> NEXT PROJECT</p>
+        <h2>有空间要做？<em>现在就可以。</em></h2>
+        <p class="cta-note">发我户型图或 CAD，48 小时内给出报价与排期。</p>
+      </div>
+      <a class="btn btn-solid btn-lg" href="#price" data-tab-link="price">查看接单价格 <span aria-hidden="true">↗</span></a>
+    </section>
+  </section>
+
+  <!-- ==================== 关于我 ==================== -->
+  <section class="panel" id="about" role="tabpanel" aria-labelledby="tab-about" hidden>
+    <div class="section page-top">
+      <p class="eyebrow reveal"><span class="dot"></span> ABOUT / 01</p>
+      <div class="page-head">
+        <h2 class="display reveal" style="--d:.08s">让空间在建成前<br><em>先被看见</em></h2>
+        <p class="page-lead reveal" style="--d:.16s">室内效果图设计师，2024 年开始做空间表现。<br>比起炫技的镜头，更在意尺度、材质和光是否站得住。</p>
+      </div>
+
+      <div class="about-grid">
+        <figure class="about-portrait about-portrait--logo reveal" style="--d:.1s">
+          <img src="assets/logo.png"
+               alt="苏沐秋视觉表现工作室标志">
+          <figcaption>苏沐秋 · 主理人 / 室内效果图设计师</figcaption>
+        </figure>
+
+        <div class="about-body">
+          <div class="about-text reveal" style="--d:.16s">
+            <p>我是苏沐秋，现居合肥。2024 年开始做空间表现，2026 年成立视觉表现工作室。</p>
+            <p>我的工作，是把一张户型图或 CAD 变成业主能看懂的画面：尺度对不对、材质搭不搭、光从哪来。</p>
+            <p>做过住宅、餐饮、民宿、办公和书店。偏爱克制的低饱和色调，也愿意为一个好空间试一次大胆的光。</p>
+          </div>
+
+          <div class="about-skills reveal" style="--d:.22s">
+            <h3 class="mini-title">能力分布</h3>
+            <div class="skill"><div class="skill-head"><span>空间与尺度</span><span>95</span></div><div class="skill-track"><i style="--w:95%"></i></div></div>
+            <div class="skill"><div class="skill-head"><span>建模与材质</span><span>92</span></div><div class="skill-track"><i style="--w:92%"></i></div></div>
+            <div class="skill"><div class="skill-head"><span>灯光渲染</span><span>94</span></div><div class="skill-track"><i style="--w:94%"></i></div></div>
+            <div class="skill"><div class="skill-head"><span>后期调色</span><span>90</span></div><div class="skill-track"><i style="--w:90%"></i></div></div>
+            <div class="skill"><div class="skill-head"><span>全景与动画</span><span>78</span></div><div class="skill-track"><i style="--w:78%"></i></div></div>
+          </div>
+
+          <div class="about-timeline reveal" style="--d:.28s">
+            <h3 class="mini-title">一点经历</h3>
+            <ul class="timeline">
+              <li><span class="year">2024</span><strong>开始做空间表现</strong><p>从单张效果图接单，服务本地设计工作室。</p></li>
+              <li><span class="year">2025</span><strong>自由空间表现师</strong><p>独立承接住宅与商业项目，熟悉从图纸到落地的流程。</p></li>
+              <li><span class="year">2026</span><strong>苏沐秋视觉表现工作室</strong><p>成立工作室，主理住宅、商业与全景项目。</p></li>
+            </ul>
+          </div>
+
+          <div class="about-tools reveal" style="--d:.34s">
+            <h3 class="mini-title">常用工具</h3>
+            <ul class="tags">
+              <li>酷家乐</li><li>3ds Max</li><li>Corona</li><li>V-Ray</li><li>SketchUp</li><li>D5 Render</li><li>Photoshop</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="work-style reveal" style="--d:.1s">
+        <h3 class="mini-title">怎么合作</h3>
+        <div class="steps steps-three">
+          <article class="step">
+            <span class="step-num">01</span>
+            <h4>看懂图纸</h4>
+            <p>户型、CAD、参考图先过一遍，确认尺度、风格与预算。不需要你准备好完整方案，一起理清就好。</p>
+          </article>
+          <article class="step">
+            <span class="step-num">02</span>
+            <h4>建模出图</h4>
+            <p>先出小图确定角度和材质，确认后再渲染高清，不浪费修改轮次。</p>
+          </article>
+          <article class="step">
+            <span class="step-num">03</span>
+            <h4>交付到底</h4>
+            <p>成图、全景或动画文件一起给。交付后 30 天内，使用问题随时问。</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 案例展示 ==================== -->
+  <section class="panel" id="work" role="tabpanel" aria-labelledby="tab-work" hidden>
+    <div class="section page-top">
+      <p class="eyebrow reveal"><span class="dot"></span> WORK / 02</p>
+      <div class="page-head">
+        <h2 class="display reveal" style="--d:.08s">案例展示</h2>
+        <p class="page-lead reveal" style="--d:.16s">这里是可以公开的 4 个住宅案例。<br>更多私宅与未公开项目，可在沟通时查看。</p>
+      </div>
+
+      <div class="work-grid">
+        <article class="work-card reveal" style="--d:.04s" data-cat="residential" tabindex="0" role="button"
+                 data-title="多巴胺 · 客厅" data-cat-label="住宅空间 · 客厅" data-year="2026"
+                 data-scope="客厅主视角|沙发区|软装配色|4K 出图"
+                 data-desc="一套住宅的客厅主视角。以奶黄色墙面、奶油色沙发与浅木格架搭出明快基调，靠地毯纹理和绿植补足层次，重点处理落地窗的漫射光，让业主在开工前就能确认家具比例与配色。">
+          <div class="work-thumb">
+            <img src="assets/work-01.jpg"
+                 alt="多巴胺住宅客厅室内效果图" loading="lazy">
+            <span class="work-index">01</span>
+            <span class="work-open">查看项目 <span aria-hidden="true">↗</span></span>
+          </div>
+          <div class="work-meta">
+            <h3>多巴胺 · 客厅</h3>
+            <p>住宅空间 · 客厅 / 2026</p>
+          </div>
+        </article>
+
+        <article class="work-card reveal" style="--d:.08s" data-cat="residential" tabindex="0" role="button"
+                 data-title="黑白 · 餐厨" data-cat-label="住宅空间 · 餐厨" data-year="2026"
+                 data-scope="餐厨|深色木饰面|材质灯光|白天氛围"
+                 data-desc="开放式厨房与餐厅的一体化表现。黑色木顶面压住空间，白色柜体与百叶窗提供高光，重点验证深色面材在自然光下会不会过暗，以及餐桌上方的照明层次。">
+          <div class="work-thumb">
+            <img src="assets/work-02.jpg"
+                 alt="黑白餐厨空间效果图" loading="lazy">
+            <span class="work-index">02</span>
+            <span class="work-open">查看项目 <span aria-hidden="true">↗</span></span>
+          </div>
+          <div class="work-meta">
+            <h3>黑白 · 餐厨</h3>
+            <p>住宅空间 · 餐厨 / 2026</p>
+          </div>
+        </article>
+
+        <article class="work-card reveal" style="--d:.12s" data-cat="residential" tabindex="0" role="button"
+                 data-title="韩系海盐 · 客厅" data-cat-label="住宅空间 · 客厅" data-year="2026"
+                 data-scope="客厅|餐厅|主卧|材质深化"
+                 data-desc="一套 120㎡ 住宅的整套表现。客厅作为主视角，用低饱和的布艺、洞石与落地窗处理采光；同一套材质延续到餐厅和主卧，保证方案汇报时风格统一。">
+          <div class="work-thumb">
+            <img src="assets/work-03.jpg"
+                 alt="韩系海盐客厅空间效果图" loading="lazy">
+            <span class="work-index">03</span>
+            <span class="work-open">查看项目 <span aria-hidden="true">↗</span></span>
+          </div>
+          <div class="work-meta">
+            <h3>韩系海盐 · 客厅</h3>
+            <p>住宅空间 · 客厅 / 2026</p>
+          </div>
+        </article>
+
+        <article class="work-card reveal" style="--d:.16s" data-cat="residential" tabindex="0" role="button"
+                 data-title="中古 · 客厅" data-cat-label="住宅空间 · 客厅" data-year="2026"
+                 data-scope="客厅|单椅|日景采光|软装搭配"
+                 data-desc="一套住宅的客厅表现。灰蓝布艺单椅与白色沙发形成对比，深色金属吊灯压住顶面，重点处理落地窗外的自然光与大理石地面的反射，让业主在白天也能判断材质与尺度。">
+          <div class="work-thumb">
+            <img src="assets/work-04.jpg"
+                 alt="中古客厅空间效果图" loading="lazy">
+            <span class="work-index">04</span>
+            <span class="work-open">查看项目 <span aria-hidden="true">↗</span></span>
+          </div>
+          <div class="work-meta">
+            <h3>中古 · 客厅</h3>
+            <p>住宅空间 · 客厅 / 2026</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="work-foot reveal">
+        <p>还有 20+ 套私宅因保密协议未展示。<a href="mailto:syong2475@gmail.com">来信索取完整作品集</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 接单价格明细 ==================== -->
+  <section class="panel" id="price" role="tabpanel" aria-labelledby="tab-price" hidden>
+    <div class="section page-top">
+      <p class="eyebrow reveal"><span class="dot"></span> PRICING / 03</p>
+      <div class="page-head">
+        <h2 class="display reveal" style="--d:.08s">接单价格明细</h2>
+        <p class="page-lead reveal" style="--d:.16s">以下为起步价，按空间面积、视角数量与交付形式确定最终报价。<br>商业空间按建筑面积计（10 元/㎡ 起），其余按张 / 套计；签合同、开发票，分阶段付款。</p>
+      </div>
+
+      <div class="price-list">
+        <article class="price-row reveal" style="--d:.04s">
+          <div class="price-title">
+            <h3>单张效果图</h3>
+            <p class="price-tag">适合方案汇报与单角度确认</p>
+          </div>
+          <div class="price-figure">
+            <div class="price-value"><span>¥</span>100<small>起 / 张</small></div>
+            <div class="price-cycle">2–3 个工作日</div>
+          </div>
+          <ul class="price-items">
+            <li>单一场景视角表现</li>
+            <li>4K 成图输出</li>
+            <li>材质、灯光与软装搭配</li>
+            <li>含 1 轮修改</li>
+          </ul>
+          <a class="price-cta" href="mailto:syong2475@gmail.com?subject=咨询：单张效果图">选这个 <span aria-hidden="true">↗</span></a>
+        </article>
+
+        <article class="price-row is-featured reveal" style="--d:.08s">
+          <div class="price-title">
+            <span class="price-badge">最多选择</span>
+            <h3>住宅全屋套图</h3>
+            <p class="price-tag">适合家装设计与业主确认</p>
+          </div>
+          <div class="price-figure">
+            <div class="price-value"><span>¥</span>700<small>起 / 套</small></div>
+            <div class="price-cycle">3–4 个工作日</div>
+          </div>
+          <ul class="price-items">
+            <li>客餐厅、卧室、厨卫等 6–10 个视角</li>
+            <li>统一材质与灯光方案</li>
+            <li>含 2 轮修改</li>
+            <li>软装清单与搭配建议</li>
+          </ul>
+          <a class="price-cta" href="mailto:syong2475@gmail.com?subject=咨询：住宅全屋套图">选这个 <span aria-hidden="true">↗</span></a>
+        </article>
+
+        <article class="price-row reveal" style="--d:.12s">
+          <div class="price-title">
+            <h3>商业空间表现</h3>
+            <p class="price-tag">适合餐饮、零售与民宿</p>
+          </div>
+          <div class="price-figure">
+            <div class="price-value"><span>¥</span>10<small>起 / ㎡</small></div>
+            <div class="price-cycle">7–10 个工作日</div>
+          </div>
+          <ul class="price-items">
+            <li>主视角 + 关键区域 8–12 张</li>
+            <li>日间 / 夜间营业灯光模拟</li>
+            <li>含 2 轮修改</li>
+            <li>汇报用排版图册</li>
+          </ul>
+          <a class="price-cta" href="mailto:syong2475@gmail.com?subject=咨询：商业空间表现">选这个 <span aria-hidden="true">↗</span></a>
+        </article>
+
+        <article class="price-row reveal" style="--d:.16s">
+          <div class="price-title">
+            <h3>全景与空间动画</h3>
+            <p class="price-tag">适合汇报、招商与线上传播</p>
+          </div>
+          <div class="price-figure">
+            <div class="price-value price-value-text">根据选择套餐收费</div>
+            <div class="price-cycle">2–4 周</div>
+          </div>
+          <ul class="price-items">
+            <li>720° 全景漫游（含交互热点）</li>
+            <li>15–30 秒空间动画</li>
+            <li>配乐与字幕</li>
+            <li>网页链接 + 离线文件双版本</li>
+          </ul>
+          <a class="price-cta" href="mailto:syong2475@gmail.com?subject=咨询：全景与空间动画">选这个 <span aria-hidden="true">↗</span></a>
+        </article>
+      </div>
+
+      <div class="price-notes reveal">
+        <div class="price-note">
+          <h3 class="mini-title">增项报价</h3>
+          <div class="addons">
+            <div class="addon"><span>加急交付（周期压缩约 40%）</span><strong>+30%</strong></div>
+            <div class="addon"><span>额外视角 / 单张加做</span><strong>¥80 / 张</strong></div>
+            <div class="addon"><span>现场量房 / 陪访（异地差旅另计）</span><strong>¥800 / 天</strong></div>
+            <div class="addon"><span>版权买断（独家转让）</span><strong>面议</strong></div>
+          </div>
+        </div>
+
+        <div class="price-note">
+          <h3 class="mini-title">付款与条款</h3>
+          <ul class="terms">
+            <li><span>01</span>签约后支付 70% 定金，项目进入排期。</li>
+            <li><span>02</span>小图确认后渲染高清，验收后支付尾款。</li>
+            <li><span>03</span>报价含 2 轮修改，超出按 ¥80 / 张 或 ¥10 / 小时计。</li>
+            <li><span>04</span>成图版权在尾款结清后归客户所有，作者保留署名与展示权。</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="process reveal">
+        <h3 class="mini-title">合作流程</h3>
+        <div class="steps">
+          <article class="step"><span class="step-num">01</span><h4>需求沟通</h4><p>户型图、CAD 或参考图发来，30 分钟理清范围与时间。</p></article>
+          <article class="step"><span class="step-num">02</span><h4>报价排期</h4><p>24 小时内给出报价单与排期，确认后签合同。</p></article>
+          <article class="step"><span class="step-num">03</span><h4>小图确认</h4><p>先出低分辨率小图定角度与材质，确认后再渲染高清。</p></article>
+          <article class="step"><span class="step-num">04</span><h4>成图交付</h4><p>交付 4K 成图、全景或动画，进入 30 天答疑。</p></article>
+        </div>
+      </div>
+
+      <div class="faq reveal">
+        <h3 class="mini-title">常见问题</h3>
+        <details open>
+          <summary>可以只做一张图吗？</summary>
+          <p>可以。单张按 ¥100 起计，适合先看一个角度的效果；成套做更划算，材质与灯光方案可以共用，报价也更低。</p>
+        </details>
+        <details>
+          <summary>需要我提供什么资料？</summary>
+          <p>户型图或 CAD（平立剖最好）、风格参考图、主要材质偏好和预算区间。没有 CAD 也可以，按手绘尺寸建模，费用会略高一些。</p>
+        </details>
+        <details>
+          <summary>出图要多久？</summary>
+          <p>单张 2–3 个工作日，住宅套图 3–4 个工作日，商业项目 7–10 个工作日。加急可压缩约 40%，收 30% 加急费。</p>
+        </details>
+        <details>
+          <summary>能改布局和结构吗？</summary>
+          <p>报价含 2 轮修改。材质、家具、灯光调整不额外收费；结构或布局大改视同新视角，按张计费，我会先跟你说清楚。</p>
+        </details>
+      </div>
+
+      <div class="price-contact reveal">
+        <p class="eyebrow"><span class="dot"></span> START A PROJECT</p>
+        <h3>发我户型图，<br>48 小时内给你报价。</h3>
+        <div class="price-contact-actions">
+          <a class="btn btn-solid btn-lg" href="mailto:syong2475@gmail.com?subject=项目咨询">写信给我 <span aria-hidden="true">↗</span></a>
+          <button class="btn btn-ghost btn-lg" type="button" data-copy-wechat>复制微信号</button>
+        </div>
+        <p class="price-contact-meta">微信 Smq4144049320 · 邮箱 syong2475@gmail.com · 图纸可直接发微信，通常 48 小时内回复</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <span class="brand-top">
+        <span class="brand-name">苏沐秋</span>
+        <span class="brand-bars" aria-hidden="true"><i></i><i></i><i></i></span>
+      </span>
+      <p>视觉表现工作室<br>室内效果图 · 全景漫游 · 空间动画</p>
+    </div>
+
+    <nav class="footer-nav" aria-label="页脚导航">
+      <h4>栏目</h4>
+      <a href="#home" data-tab-link="home">首页</a>
+      <a href="#about" data-tab-link="about">关于我</a>
+      <a href="#work" data-tab-link="work">案例展示</a>
+      <a href="#price" data-tab-link="price">接单价格明细</a>
+    </nav>
+
+    <div class="footer-contact">
+      <h4>联系</h4>
+      <a href="mailto:syong2475@gmail.com">邮箱：syong2475@gmail.com</a>
+      <button type="button" data-copy-wechat>微信：Smq4144049320</button>
+      <a href="tel:19965134178">电话：19965134178</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <span>© <span id="year">2026</span> 苏沐秋视觉表现工作室</span>
+    <span>合肥 · 远程协作 / 接受全国项目</span>
+    <a href="#home" data-tab-link="home">回到顶部 ↑</a>
+  </div>
+</footer>
+
+<aside class="contact-rail" aria-label="快捷联系">
+  <button class="rail-btn" type="button" data-copy-wechat aria-label="复制微信号">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+      <path d="M20 11.5c0 3.6-3.6 6.5-8 6.5-1 0-2-.15-2.9-.42L5 19l1.1-3.1C4.8 14.6 4 13.1 4 11.5 4 7.9 7.6 5 12 5s8 2.9 8 6.5Z"/>
+      <path d="M8.7 10.4h.01M12.4 10.4h.01M15.3 10.4h.01" stroke-linecap="round" stroke-width="2.2"/>
+    </svg>
+    <span class="rail-tip">复制微信号</span>
+  </button>
+  <a class="rail-btn" href="tel:19965134178" aria-label="拨打电话">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+      <path d="M6.2 3.5h3l1.4 4-2 1.4a12 12 0 0 0 6.5 6.5l1.4-2 4 1.4v3c0 1.4-1.1 2.6-2.6 2.4C10.6 19.5 4.5 13.4 3.8 6.1 3.6 4.6 4.8 3.5 6.2 3.5Z"/>
+    </svg>
+    <span class="rail-tip">拨打电话</span>
+  </a>
+  <a class="rail-btn" href="mailto:syong2475@gmail.com" aria-label="发邮件">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+      <rect x="3.5" y="5.5" width="17" height="13" rx="1.5"/>
+      <path d="m4 6.5 8 6.5 8-6.5"/>
+    </svg>
+    <span class="rail-tip">发邮件</span>
+  </a>
+  <button class="rail-btn" type="button" id="toTop" aria-label="回到顶部">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+      <path d="M12 19V5M6 11l6-6 6 6"/>
+    </svg>
+    <span class="rail-tip">回到顶部</span>
+  </button>
+</aside>
+
+<div class="modal" id="caseModal" aria-hidden="true">
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" type="button" data-close aria-label="关闭">✕</button>
+    <div class="modal-media"><img id="modalImg" alt=""></div>
+    <div class="modal-body">
+      <p class="eyebrow" id="modalCat"></p>
+      <h3 id="modalTitle"></h3>
+      <p id="modalDesc"></p>
+      <dl id="modalMeta"></dl>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+</body>
+</html>
